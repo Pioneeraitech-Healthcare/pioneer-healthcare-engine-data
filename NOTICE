@@ -1,0 +1,35 @@
+Pioneer Healthcare engine data
+Copyright (c) 2026 Pioneer AI Tech
+
+What this repository contains
+-----------------------------
+This repository does not contain the engine's configuration. The image it
+builds starts FROM the official image bahmni/standard-config (tag 1.0.0 by
+default), published by the upstream open-source project under the GNU Affero
+General Public License v3 (Copyright (C) 2018 OpenMRS, Inc). Its source is
+public at https://github.com/Bahmni/standard-config.
+
+That base image is used as published. Apart from the files listed below,
+nothing in it is added, removed or changed.
+
+Files laid over the base image (path inside the image):
+
+  /etc/bahmni_config/openmrs/apps/home/logo.png                    replaced, our artwork
+  /etc/bahmni_config/openmrs/apps/home/pioneer-healthcare-logo.png  added, our artwork
+  /etc/bahmni_config/openmrs/apps/home/icons/billing.svg           added, our artwork
+  /etc/bahmni_config/openmrs/apps/home/icons/clinical.svg          added, our artwork
+  /etc/bahmni_config/openmrs/apps/home/icons/laboratory.svg        added, our artwork
+  /etc/bahmni_config/openmrs/apps/home/whiteLabel.json             modified upstream file
+
+Licensing
+---------
+- pioneer/            Pioneer AI Tech, proprietary (see LICENSE).
+- agpl-modified/      Modified copy of an upstream file. It stays under the
+                      GNU AGPL v3 (agpl-modified/LICENSE-AGPL-3.0.txt), with
+                      the original copyright of OpenMRS, Inc. Our changes to
+                      it are released under the same license. See
+                      agpl-modified/NOTICE.md for what was changed.
+- Base image          GNU AGPL v3, OpenMRS, Inc. Unmodified.
+
+The Pioneer Healthcare name and logo are trademarks of Pioneer AI Tech and
+are not licensed under the AGPL.

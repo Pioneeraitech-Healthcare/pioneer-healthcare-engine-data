@@ -1,0 +1,15 @@
+Copyright (c) 2026 Pioneer AI Tech. All rights reserved.
+
+This license covers every file in this repository EXCEPT the contents of the
+agpl-modified/ folder and the official base image named in the Dockerfile,
+which keep their own licenses (see NOTICE).
+
+The covered files, including the Pioneer Healthcare logo and icon artwork,
+are proprietary and confidential. No part of them may be copied, modified,
+distributed, sublicensed or used, in whole or in part, without the prior
+written permission of Pioneer AI Tech, except by Pioneer AI Tech staff and
+contractors for the purpose of operating Pioneer AI Tech services.
+
+THE FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL PIONEER AI TECH BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY ARISING FROM THE USE OF THE FILES.
